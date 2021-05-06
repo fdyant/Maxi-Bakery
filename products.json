@@ -1,0 +1,77 @@
+ {
+    "items":[
+    {
+        "sys": {"id" : "1"},
+        "fields": {
+            "title": "Layer cake",
+            "price": 20.99,
+            "image":{"fields": {"file": {"url": "./Images/lapislegit.JPG" }
+            }}
+        }
+    },
+    {
+        "sys": {"id" : "2"},
+        "fields": {
+            "title": "Tiramisu",
+            "price": 15.99,
+            "image":{"fields": {"file": {"url":"./Images/tiramisu.JPG"   }
+                }}
+        }
+    },
+    {
+        "sys": {"id" : "3"},
+        "fields": {
+            "title": "Carot cake",
+            "price": 10.99,
+            "image":{"fields": {"file": {"url":"./Images/carrotcake.JPG"   }
+                }}
+        }
+    },
+    {
+        "sys": {"id" : "4"},
+        "fields": {
+            "title": "Pineapple roll cake",
+            "price": 10.99,
+            "image":{"fields": {"file": {"url":"./Images/rollcake.JPG"   }
+                }}
+        }
+    },
+    {
+        "sys": {"id" : "5"},
+        "fields": {
+            "title": "Brownies",
+            "price": 10.99,
+            "image":{"fields": {"file": {"url":"./Images/brownis.JPG"   }
+                }}
+        }
+    },
+    {
+        "sys": {"id" : "6"},
+        "fields": {
+            "title": "Chocolate chips cookies",
+            "price": 8.99,
+            "image":{"fields": {"file": {"url":"./Images/Cocochip.JPG"}
+                }}
+        }
+    },
+    {
+        "sys": {"id" : "7"},
+        "fields": {
+            "title": "Thumbprint cookies",
+            "price": 7.99,
+            "image":{"fields": {"file": {"url":"./Images/thumbprint.JPG"}
+                }}
+        }
+    },
+    {
+        "sys": {"id" : "8"},
+        "fields": {
+            "title": "Pineapples cookies",
+            "price": 9.99,
+            "image":{"fields": {"file": {"url":"./Images/nastar.JPG"}
+                }}
+        }
+    }
+    
+]
+}
