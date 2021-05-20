@@ -20,7 +20,6 @@ body{
 }
 /* NAVBAR */
 .navbar {
-    background: var(--mainGrey);
     position: sticky;
     top:0;
     height: 60px;
@@ -40,13 +39,37 @@ body{
     padding: 0 1.5rem;
 }
 .nav-icon {
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
-
 .cart-btn {
     position: relative;
     cursor: pointer;
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(141, 83, 8);
+    text-align: center;
+    padding: 5px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: var(--mainSpacing);
+    font-size: 1rem;
+}
+li a:hover{
+    background: var(--primaryColor);
+}
+/* end navbar */
+
 .cart-items {
     position: absolute;
     top:-8px;
@@ -69,12 +92,14 @@ body{
     background-color: rgba(255, 255, 255, 0.8);
     display: inline-block;
     padding: 2rem;
+    border-radius: 10%;
 }
 .banner-title {
-    font-size: 3.4rem;
+    font-size: 2.5rem;
     text-transform: uppercase;
     letter-spacing: var(--mainSpacing);
     margin-bottom: 3rem;
+    color: #e4675e;
 }
 .banner-btn{
     padding: 1rem 3rem;
@@ -86,6 +111,10 @@ body{
     border: 1px solid var(--primaryColor);
     transition: var(--mainTransition);
     cursor: pointer;
+}
+.banner-btn a{
+text-decoration:none;
+color:rgb(247, 243, 18);
 }
 .banner-btn:hover {
     background: transparent;
