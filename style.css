@@ -26,20 +26,23 @@ body{
     width: 100%;
     display: flex;
     align-items: center;
-    background: rgb(165, 204, 236);
+    background: rgb(250, 107, 107);
     z-index: 1;
 }
 .navbar-center {
     width: 100%;
-    max-width: 1170px;
+    max-width: 1150px;
     margin: auto;
     display:flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 1.5rem;
 }
-.nav-icon {
-    font-size: 1rem;
+
+.navbar h2{
+    font-size: 2rem;
+    font-family: 'Shadows Into Light', cursive;
+    color: rgb(213, 231, 48);
 }
 .cart-btn {
     position: relative;
@@ -47,8 +50,6 @@ body{
 }
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     overflow: hidden;
 }
 li {
@@ -57,9 +58,9 @@ li {
 
 li a {
     display: block;
-    color: rgb(141, 83, 8);
+    color: rgb(213, 231, 48);
     text-align: center;
-    padding: 5px 15px;
+    padding: 5px 10px;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: var(--mainSpacing);
@@ -72,11 +73,11 @@ li a:hover{
 
 .cart-items {
     position: absolute;
-    top:-8px;
-    right: -8px;
+    top:-10px;
+    right: -10px;
     background: var(--primaryColor);
-    padding: 0 5px;
-    border-radius: 30%;
+    padding: 0 2px;
+    border-radius: 10%;
     color:var(--mainWhite);
 }
 /* header-hero */
@@ -95,7 +96,7 @@ li a:hover{
     border-radius: 10%;
 }
 .banner-title {
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-transform: uppercase;
     letter-spacing: var(--mainSpacing);
     margin-bottom: 3rem;
@@ -287,3 +288,5 @@ color:rgb(247, 243, 18);
     text-transform: capitalize;
     margin-bottom: 1rem;
 }
+
+/*contact form*/
